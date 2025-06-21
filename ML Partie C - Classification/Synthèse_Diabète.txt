@@ -1,0 +1,12 @@
+Conclusions et recommandations
+
+	Conclusions
+   -Le modèle a obtenu une performance correcte avec un F1-score raisonnable, en particulier sur la classe positive (diabète).
+   -Cependant, quelques faux négatifs sont observés, ce qui pourrait être critique en contexte médical.
+
+    	Recommandations
+   - Collecter plus de données, en particulier pour la classe minoritaire (patients diabétiques).
+   - Intégrer des variables supplémentaires : antécédents familiaux, mode de vie, alimentation.
+   - Tester d'autres modèles comme les arbres de décision, forêts aléatoires, ou XGBoost.
+   - Utiliser des techniques avancées d'explicabilité (SHAP, LIME) pour mieux comprendre les prédictions.
+   - Mettre en place une vérification humaine en cas de doute sur les diagnostics.
