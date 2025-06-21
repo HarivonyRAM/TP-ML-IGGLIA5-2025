@@ -1,0 +1,16 @@
+
+CONCLUSION
+
+Importance des variables
+- MedInc (revenu médian) : la plus influente, liée positivement au prix des logements.
+- AveRooms : effet positif, plus de pièces = logements plus chers.
+- AveOccup : effet négatif, surpeuplement = valeur moindre.
+- HouseAge : influence modérée.
+- Les autres variables ont un impact plus faible ou corrélé aux précédentes.
+
+Pistes d'amélioration
+1. Utiliser des modèles non-linéaires (Random Forest, Gradient Boosting).
+2. Ajouter des données externes : géolocalisation, distance des écoles/transports,....
+3. Appliquer une validation croisée (KFold).
+4. Affiner la sélection des variables (Lasso, SHAP, RFE).
+5. Nettoyer les valeurs extrêmes (outliers).
