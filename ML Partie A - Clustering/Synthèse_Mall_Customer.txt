@@ -1,0 +1,9 @@
+Conclusion :
+- Le modèle K-Means avec k=5 fournit une segmentation claire et stable des clients.
+- Les clusters présentent des différences marquées en termes de revenus, d'âge et de score de dépense.
+- Cette segmentation peut être utilisée pour orienter des stratégies marketing ciblées (fidélisation, promotions, services premium, etc.).
+
+Recommandations :
+- Ajouter de nouvelles variables comportementales ou transactionnelles pour affiner la segmentation.
+- Réactualiser les clusters régulièrement pour suivre les tendances client.
+- Explorer d'autres méthodes de clustering (DBSCAN, Agglomératif) pour comparaison.
